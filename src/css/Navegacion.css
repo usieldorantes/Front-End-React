@@ -1,0 +1,38 @@
+.NavBar {
+    list-style-type: none;
+    margin: 1;
+    padding: 1;
+    overflow: hidden;
+    background-color: #333;
+}
+.link-container {
+    float: left;
+}
+.link-container .link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.link-container .link:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+body {
+background-image:url('https://miro.medium.com/max/3840/0*oZLL-N4dGNlBe4Oh.png');
+background-color: #ffdd90;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
